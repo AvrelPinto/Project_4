@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daily Habit Tracker — Minimalist</title>
+
+  <!-- Handwritten-style Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌿 Daily Habit Tracker</h1>
+
+    <div class="add-habit">
+      <input id="habitInput" type="text" placeholder="✏️ Write a new habit..." />
+      <button id="addHabitBtn">Add</button>
+    </div>
+
+    <div id="habitList" aria-live="polite"></div>
+
+    <div class="reset-wrap">
+      <button id="resetBtn">🗑️ Reset All</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
